@@ -1,0 +1,134 @@
+body {
+    font-size: 18px;
+}
+
+.content {
+    width: 210mm;
+    height: 297mm;
+    border: 0px solid #000;
+    padding: 15mm;
+}
+
+.logo {
+    width: 181px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    float: left;
+    width: 50%;
+    top: 0;
+}
+
+.fa_number {
+    font-size: 1.2rem;
+    float: right;
+    width: 50%;
+    text-align: right;
+    margin-top: 7.5mm;
+    top: 0;
+}
+
+.invoice_participants {
+    margin-top: 15mm;
+}
+
+.invoice_participants_one, .invoice_one_prop {
+    width: 48%;
+}
+
+.invoice_participants_we, .invoice_props_left {
+    float: left;
+}
+
+.invoice_participants_customer, .invoice_props_right {
+    float: right;
+}
+
+.invoice_participants_underline, .invoice_divider {
+    font-size: 0rem;
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    margin-top: 0.55mm;
+}
+
+.invoice_divider {
+    margin-top: 6mm;
+}
+
+.invoice_divider.higher {
+    border-bottom-width: 0.7mm;
+}
+
+.invoice_participants_one .heading {
+    color: #fff;
+    font-size: 0.85rem;
+    border-width: 1mm 3mm;
+    border-style: solid;
+}
+
+.company, .invoice_props, .invoice_numbers {
+    margin-top: 6mm;
+    font-size: 0.92rem;
+    line-height: 1.4;
+}
+
+.invoice_one_prop_table, .invoice_numbers_table, .footer_table {
+    border-collapse: collapse;
+}
+
+.invoice_one_prop_table td, .invoice_numbers td {
+    font-size: 0.92rem;
+    padding-right: 3mm;
+}
+
+.invoice_numbers_table {
+    width: 100%;
+}
+
+.invoice_numbers td {
+    padding-left: 0;
+}
+
+td.strong {
+    font-weight: bold;
+    padding-bottom: 1mm;
+}
+
+td.right {
+    text-align: right;
+}
+
+.invoice_numbers td.right.last {
+    padding-right: 0 !important;
+}
+
+.overal_price {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 4mm;
+    padding: 2mm 5mm;
+    color: #fff;
+}
+
+.footer_wrapper {
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+
+.footer_table {
+    margin-top: 3mm;
+}
+
+.footer_table td {
+    font-size: 0.8rem;
+}
+
+.registration {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 3mm;
+}

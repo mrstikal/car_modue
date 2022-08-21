@@ -1,0 +1,139 @@
+body {
+    font-size: 16px;
+}
+
+.content {
+    width: 210mm;
+    height: 297mm;
+    padding-left: 15mm;
+    padding-right: 15mm;
+    padding-top: 0mm;
+    padding-bottom: 15mm;
+    line-height: 1.4;
+    font-size: 1.1rem;
+}
+
+.logo {
+    height: 8mm;
+    width: 60mm;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    margin-left: 15mm;
+    margin-bottom: -3.5mm;
+}
+
+.header_wrapper {
+    display: inline-block;
+    width: 170mm;
+    margin-left: 15mm;
+    text-align: right;
+    margin-right: 25mm;
+    border-style: solid;
+    border-width: 2mm 5mm;
+}
+
+.invoice_divider {
+    font-size: 0rem;
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    margin-top: 6mm;
+}
+
+.header_spacer {
+    height: 5mm;
+}
+
+.document_type {
+    border-style: solid;
+    border-width: 2mm 5mm;
+    color: #fff;
+    font-weight: bold;
+    left: 30mm;
+}
+
+.footer_half {
+    width: 50%;
+    float: left;
+}
+
+.header_divider {
+    font-size: 0rem;
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    margin-top: 1.5mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+
+.aligner {
+    text-align: right;
+    margin-right: 25mm;
+}
+
+h1 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2mm;
+    border-bottom: 0px solid #eee;
+}
+
+.check_type {
+    font-size: 1rem;
+    background-color: #ccc;
+    padding: 2mm 4mm;
+    border-bottom: 2mm;
+    font-weight: bold;
+}
+
+.one_row {
+    margin-bottom: 1.8mm;
+    padding-bottom: 1.8mm;
+    border-bottom: 1px solid #aaa;
+}
+
+.one_row_name {
+    margin-right: 3mm;
+    line-height: 10mm;
+    height: 1mm;
+}
+
+.one_row_check {
+    border: 1px solid #000;
+    margin-left: 2mm;
+}
+
+.all_rows {
+    margin-top: 3mm;
+}
+
+.signature {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 1.3rem;
+    padding-top: 8mm;
+}
+
+td.underlined {
+    border-bottom: 1px solid #000;
+    width: 18%;
+}
+
+td.spacer {
+    width: 5%;
+}
+
+td.widest {
+    width: 35%;
+}
+
+.instructions {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 8mm;
+}

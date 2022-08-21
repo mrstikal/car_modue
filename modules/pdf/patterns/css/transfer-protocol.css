@@ -1,0 +1,266 @@
+body {
+    font-size: 16px;
+}
+
+.content {
+    width: 210mm;
+    height: 297mm;
+    padding-left: 15mm;
+    padding-right: 15mm;
+    padding-top: 0mm;
+    padding-bottom: 15mm;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.logo {
+    height: 8mm;
+    width: 60mm;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    margin-left: 15mm;
+    margin-bottom: -3.5mm;
+}
+
+.header_wrapper {
+    display: inline-block;
+    width: 170mm;
+    margin-left: 15mm;
+    text-align: right;
+    margin-right: 25mm;
+    border-style: solid;
+    border-width: 2mm 5mm;
+}
+
+.chapter_wrapper {
+    width: 100%;
+    text-align: left;
+    margin-left: 0mm;
+    margin-right: 0mm;
+    border-style: solid;
+    border-width: 2mm 5mm;
+    margin-top: 8mm;
+}
+
+.invoice_divider {
+    font-size: 0rem;
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    padding-top: 6mm;
+}
+
+.header_spacer {
+    height: 5mm;
+}
+
+.medium_spacer {
+    font-size: 0.1rem;
+    line-height: 0.1;
+    height: 2.5mm;
+}
+
+.smaller_spacer {
+    font-size: 0.1rem;
+    line-height: 0.1;
+    height: 1mm;
+}
+
+.inner_spacer {
+    height: 8mm;
+}
+
+.document_type {
+    border-style: solid;
+    border-width: 2mm 5mm;
+    color: #fff;
+    font-weight: bold;
+    left: 30mm;
+}
+
+.chapter_type {
+    border-style: solid;
+    border-width: 2mm 5mm;
+    color: #fff;
+    font-weight: bold;
+    font-size: .95rem;
+}
+
+.aligner {
+    text-align: right;
+    margin-right: 25mm;
+}
+
+.chapter_aligner {
+    text-align: left;
+}
+
+.footer_wrapper {
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+
+.footer_table {
+    margin-top: 3mm;
+}
+
+.footer_table td {
+    font-size: 0.8rem;
+}
+
+.footer_half {
+    width: 50%;
+    float: left;
+}
+
+.header_divider {
+    font-size: 0rem;
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    margin-top: 1.5mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+
+.chapter_divider {
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    margin-top: 1.5mm;
+}
+
+h1 {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2mm;
+    border-bottom: 0px solid #eee;
+}
+
+.check_type {
+    font-size: 1rem;
+    background-color: #ccc;
+    padding: 2mm 4mm;
+    border-bottom: 2mm;
+    font-weight: bold;
+}
+
+.basic_props, .mini_table {
+    border-collapse: collapse;
+}
+
+td.name, td.value {
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+}
+
+td.name {
+    padding-right: 1mm;
+    padding-left: 0;
+}
+
+td.name.second {
+    padding-left: 5mm;
+}
+
+td.value {
+    padding-right: 8mm;
+    font-weight: bold;
+}
+
+.outerlined {
+    border-bottom: 1px solid #000;
+    padding-right: 1mm;
+    padding-top: 1.5mm;
+    padding-bottom: 1.5mm;
+}
+
+.tires_descr {
+    font-weight: bold;
+    margin-bottom: 1mm;
+}
+
+.general_descr {
+    font-size: 0.9rem;
+    text-align: right;
+}
+
+.top_align_table td, .mini_table td, .basic_props td {
+    vertical-align: top;
+}
+
+.top_align_table td.value {
+    font-family: 'RobotoMedium';
+    font-weight: 400;
+}
+
+.payment_conditions {
+    background-color: #ddd;
+    padding: 2mm 4mm;
+}
+
+.payment_conditions_head {
+    font-family: 'RobotoMedium';
+    font-weight: 400;
+}
+
+.payment_conditions_text {
+    font-size: 1rem;
+}
+
+.signatures_handover_left, .signatures_handover_right, .signatures_return_left, .signatures_return_right {
+    float: left;
+}
+
+.signatures_handover_left {
+    width: 60%;
+}
+
+.signatures_handover_right {
+    width: 40%;
+}
+
+.signatures_return_left {
+    width: 70%;
+}
+
+.signatures_return_right {
+    width: 30%;
+}
+
+.signatures_handover_left div, .signatures_handover_right div, .signatures_return_left div, .signatures_return_right div {
+    margin-top: 1mm;
+    border-top: 1px solid #000;
+    float: left;
+    width: 90%;
+    height: 0;
+    line-height: 0;
+    font-size: 0rem;
+}
+
+.signatures_handover_right div {
+    width: 100%;
+}
+
+.full_width_table {
+    width: 100%;
+}
+
+.full_width_table td.first {
+    width: 10%;
+}
+
+td.underlined {
+    padding-bottom: 3mm;
+    border-bottom: 1px solid #000;
+}
+
+.mini_table td.align_middle {
+    padding-top: 1.7mm;
+    padding-bottom: 1.3mm;
+}

@@ -1,0 +1,44 @@
+.callendar_wrapper {
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.one_filter_item {
+    display: inline-block;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    vertical-align: bottom;
+}
+
+.one_filter_item_label {
+    font-size: 15px;
+}
+
+.selectboxit-container.select_type {
+    margin-top: 0;
+}
+
+.filter_wrapper {
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: #fff;
+    padding: 14px 20px 0px 20px;
+}
+
+.color_to_explain {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.color_explained {
+    padding-left: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 8px;
+}
+
+.description_wrapper {
+    margin-top: 20px;
+}

@@ -1,0 +1,9 @@
+body.mce-content-body {
+    font-size: 14px !important;
+}
+
+.mce-content-body h1 {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    text-align: center !important;
+}

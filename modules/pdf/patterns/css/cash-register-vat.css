@@ -1,0 +1,128 @@
+body {
+    font-size: 18px;
+}
+
+.content {
+    width: 154mm;
+    height: 111mm;
+    padding: 8mm;
+    padding-left: 8mm;
+    padding-right: 8mm;
+    padding-top: 8mm;
+    padding-bottom: 0mm;
+}
+
+.logo {
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    float: left;
+    width: 32%;
+    top: 0;
+}
+
+.cash_register_divider_underline {
+    font-size: 0rem;
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    margin-top: 0.55mm;
+}
+
+.cash_register_name {
+    font-size: 1.2rem;
+    color: #fff;
+    border-width: 1mm 3mm;
+    border-style: solid;
+}
+
+.cash_register_heading_props {
+    text-align: right;
+    float: right;
+    height: 0;
+    margin-top: -5mm;
+}
+
+.cash_register_heading_prop {
+    font-size: 0.9rem;
+    padding-left: 5mm;
+    text-align: right;
+    float: right;
+}
+
+.cash_register_we {
+    margin-top: 4mm;
+    margin-bottom: 3mm;
+}
+
+.cash_register_we_props_wrapper {
+    width: 68%;
+    float: right;
+}
+
+.cash_register_we_props td {
+    font-size: 0.7rem;
+    width: 40%;
+}
+
+.cash_register_we_props td.right {
+    padding-right: 6mm;
+    width: 50%;
+}
+
+.cash_register_props {
+    border-collapse: collapse;
+    margin-top: 2mm;
+    width: 100%;
+}
+
+.cash_register_props_inner {
+    border-collapse: collapse;
+}
+
+.cash_register_props_inner td.left {
+    border-bottom-width: 0mm;
+    padding-top: 0mm;
+    padding-bottom: 0mm;
+    padding-right: 0.3mm;
+}
+
+.cash_register_props_inner td.right {
+    border-bottom-width: 0mm;
+    padding-top: 0mm;
+    padding-bottom: 0mm;
+    padding-right: 2mm;
+}
+
+.cash_register_props td {
+    vertical-align: top;
+    padding-top: 2mm;
+    padding-bottom: 2mm;
+    border-bottom-width: 0.1mm;
+    border-bottom-style: solid;
+    border-bottom-color: #999;
+    font-size: 0.8rem;
+}
+
+.cash_register_props td.inner {
+
+}
+
+.cash_register_props td.left {
+    padding-right: 5mm;
+}
+
+.cash_register_props td.right {
+    font-weight: bold;
+} 
+
+.footer_wrapper {
+    margin-left: 8mm;
+}
+
+.footer_half {
+    width: 50%;
+    float: left;
+}

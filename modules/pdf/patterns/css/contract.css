@@ -1,0 +1,192 @@
+body {
+    font-size: 16px;
+}
+
+.content {
+    width: 210mm;
+    height: 297mm;
+    padding-left: 15mm;
+    padding-right: 15mm;
+    padding-top: 0;
+    padding-bottom: 15mm;
+    line-height: 1.3;
+}
+
+.content strong {
+    font-family: 'RobotoBlack';
+    font-weight: 400;
+}
+
+.logo {
+    height: 8mm;
+    width: 60mm;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    margin-left: 15mm;
+    margin-bottom: -3.5mm;
+}
+
+.header_wrapper {
+    display: inline-block;
+    width: 170mm;
+    margin-left: 15mm;
+    text-align: right;
+    margin-right: 25mm;
+    border-style: solid;
+    border-width: 2mm 5mm;
+
+}
+
+.header_spacer {
+    padding-bottom: 40mm;
+    height: 40mm;
+}
+
+.document_type {
+    border-style: solid;
+    border-width: 2mm 5mm;
+    color: #fff;
+    font-weight: bold;
+    left: 30mm;
+}
+
+.footer_wrapper {
+    margin-left: 8mm;
+}
+
+.footer_half {
+    width: 50%;
+    float: left;
+}
+
+.header_divider {
+    font-size: 0rem;
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    margin-top: 1.5mm;
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+
+.aligner {
+    text-align: right;
+    margin-right: 25mm;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2mm;
+    border-bottom: 0px solid #eee;
+}
+
+.participants {
+    border-collapse: collapse;
+}
+
+.participants td {
+    padding-top: 1mm;
+    padding-bottom: 1mm;
+    border-bottom: 0px solid #ccc;
+}
+
+.participants td.right {
+    font-family: 'RobotoMedium';
+}
+
+.participants td.left {
+    padding-right: 5mm;
+}
+
+.we_wrapper {
+    margin-top: 0mm;
+}
+
+.top_space {
+    margin-top: 3mm;
+}
+
+.customer_wrapper {
+    margin-top: 3mm;
+}
+
+p {
+    padding-bottom: 1.8mm;
+    padding-top: 0;
+    margin: 0;
+}
+
+span.medium {
+    font-family: 'RobotoMedium';
+}
+
+.footer_wrapper {
+    margin-left: 15mm;
+    margin-right: 15mm;
+}
+
+.footer_table {
+    margin-top: 3mm;
+}
+
+.footer_table td {
+    font-size: 0.8rem;
+}
+
+.invoice_divider {
+    font-size: 0rem;
+    line-height: 0;
+    height: 0;
+    border-bottom-width: 0.3mm;
+    border-bottom-style: solid;
+    margin-top: 6mm;
+}
+
+.footer_table {
+    border-collapse: collapse;
+}
+
+.underlined {
+    display: inline;
+    border-bottom: 1px solid #ccc;
+}
+
+.signatures_wrapper {
+    margin-top: 15mm;
+}
+
+.one_signature {
+    width: 40%;
+    text-align: center;
+}
+
+.left_signature {
+    float: left;
+}
+
+.right_signature {
+    float: right;
+}
+
+.signature_line {
+    border-bottom: 0.3mm dotted #000;
+}
+
+.signature_header {
+    font-size: 1.1rem;
+    margin-bottom: 18mm;
+    font-family: 'RobotoMedium';
+}
+
+.signature_line {
+    margin-bottom: 3mm;
+}
+
+.signature_small {
+    font-size: 0.7rem;
+    margin-top: 1mm;
+}
